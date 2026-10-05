@@ -1,0 +1,42 @@
+# ---------- Node / Next.js ----------
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---------- Python / FastAPI ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ---------- Environment ----------
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ---------- Storage (Phase 6+) ----------
+storage/
+!storage/.gitkeep
+
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
